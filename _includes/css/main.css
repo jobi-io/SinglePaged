@@ -257,7 +257,11 @@ nav ul li:hover, nav ul li.active {
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
 
-
+.jobi-logo::before {
+  content: url( "http://images.clipartpanda.com/kangaroo-clipart-kangaroo_silhoutte.svg" );
+  height: 200px;
+  width: 200px;
+}
 
 /* ----- fork on github banner ----- */
 #forkongithub a {
